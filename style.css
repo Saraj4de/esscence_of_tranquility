@@ -1,0 +1,125 @@
+
+      body{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image:url("background.png");
+        background-color:aqua;
+        margin:28%;
+        font: size 10px;
+          }
+          .important {
+         color:black;
+         background-color:whitesmoke;
+        border-style:solid;
+        border-width:8px;
+        color:white;
+          }
+          
+        
+           h1{
+          font-size:2em;
+          }
+          
+          h2 {
+         font:size 1.5em;
+    
+          }
+          
+          h3 {
+         font: size 1.5em;
+    
+        border-color:rgb(84, 84, 209);
+        border-radius:5px;
+        font: size 1em;
+        margin:20xp;
+         padding:1xp;
+         
+        
+          }
+    
+          
+         
+        p{
+        background-color:whitesmoke;
+        
+        ;
+        } 
+        #menu {
+          background-color:rgb(84, 84, 209);
+          overflow:hidden;
+          list-style-type:none;
+    
+        }
+        li{
+          float:right;
+          border-left:soild;
+          border-color:whitesmoke;
+    
+        }
+        li a {
+        display:block;
+        color:whitesmoke;
+        text-align:center;
+        padding: 14px;
+        text-decoration:none;}
+      li a:hover{ 
+        background-color:whitesmoke;
+      }
+      .active{
+      background-color:rgb(84, 84, 209);
+    
+      }
+
+      .container{ 
+      background-color:rgb(150, 77, 218);
+      padding:20px;
+      padding-top: 5px;
+      margin:10 px;
+      overflow:auto;
+       } 
+      #imageRight{ 
+        float:right;
+      padding:10px;
+      margin-left:20px;
+      border-style:soild;
+      background-color:red;
+      }
+
+      
+     .flex-container { 
+    background-color:grey;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left:5%px;
+    margin-right:5%px;
+    padding:10px;
+    justify-content:space-around;
+         }
+    
+
+    image {
+      padding:10px;
+      border-style:sold;
+      margin:20px;
+      background-color:rgb(84, 84, 209);
+    }
+    
+
+    .flex-container {
+      background-color:rgb(84, 84, 209);
+      display:flex;
+      flex-direction:row;
+      flex-wrap:wrap;
+      margin-left:5%;
+      margin-right:5%;
+      padding:10px;
+      justify-content: space-around;
+    }
+
+    .image {
+      padding:10px;
+      border-style: solid;
+      margin:20px;
+      background-color: white;
+    }
